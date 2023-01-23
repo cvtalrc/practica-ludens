@@ -1,0 +1,127 @@
+.texto-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    color: #EDF0F2;
+    margin: .5rem 0;
+}
+
+.texto-parrafo-negrita {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin: .5rem 5rem;
+
+}
+
+.texto-parrafo-normal {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: .5rem 5rem;
+
+}
+
+.texto-parrafo-color {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #5E67FF;
+    margin: .5rem 5rem;
+
+}
+
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #8F95FF;
+
+}
+
+.portada {
+    margin: 1rem 10rem;
+    height: 25rem;
+    /*display: grid;
+    grid-template-columns: 800px 550px;*/
+}
+
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.contenedor-materias {
+    margin: 1rem 22rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+}
+
+.material {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+  }
+
+button {
+    margin: 1rem 0;
+    padding:.5rem ;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.boton-portada {
+    background-color: #FFFFFF;
+    color:#8F95FF;
+    padding: .7rem;
+    
+}
+
+.boton-descargas {
+    background-color: #1B293F;
+    color: #FFFFFF;
+}
+
+.error {
+    background-color: rgb(185,0,0);
+    text-align: center;
+    padding: .5rem ;
+    color: #FFFFFF;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    font-size: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #EDF0F2;
+}

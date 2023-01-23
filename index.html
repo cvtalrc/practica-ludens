@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="../Ludens/img/navbar.png" width="1670rem;">
+
+        <div class="portada">
+
+            <div class="presentacion">
+                <h2 class="texto-titulo">Accede a nuestro material sin costo</h2>
+                <p class="texto-parrafo-negrita">¡Invitamos a todos nuestros docentes a descargar nuestro material
+                    educativo exclusivo! </p>
+                <p class="texto-parrafo-normal"> Rellena nuestro sencillo formulario para acceder a recursos útiles e
+                    innovadores que te ayudarán a mejorar tus clases y a motivar a tus estudiantes. ¡No pierdas esta
+                    oportunidad de mejorar tu enseñanza!
+                </p>
+                <!--<button class="boton-portada">Haz click aquí para acceder al formulario de descarga.</button>-->
+            </div>
+
+            <!--<div class="imagen-principal">
+            <svg width="100" height="100" viewBox="0 0 31 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.7285 0.192139H0.830078V4.46931H30.7285V0.192139Z" fill="black"/>
+                </svg>
+        </div>-->
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor-materias">
+            <section class="material">
+                <p class="titulo-materia"> Historia 8º Básico</p>
+                <img src="../Ludens/img/historia.png" alt="" srcset="">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="material">
+                <p class="titulo-materia"> Lenguaje 5º Básico</p>
+                <img src="../Ludens/img/lenguaje.png" alt="" srcset="">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="material">
+                <p class="titulo-materia"> Matemáticas 8º Básico</p>
+                <img src="../Ludens/img/matematicas1.png" alt="" srcset="">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="material">
+                <p class="titulo-materia"> Matemáticas 5º Básico</p>
+                <img src="../Ludens/img/matematicas2.png" alt="" srcset="">
+
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="material">
+                <p class="titulo-materia"> Inglés 8º Básico</p>
+                <img src="../Ludens/img/ingles.png" alt="" srcset="">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="material">
+                <p class="titulo-materia"> Ciencias 8º Básico</p>
+                <img src="../Ludens/img/ciencias.png" alt="" srcset="">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Descargar
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Descargar material</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="needs-validation" novalidate="">
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <!--<label for="firstName" class="form-label">Nombre</label>-->
+                                            <input type="text" class="form-control" id="nombre" placeholder="Nombre"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <!--<label for="lastName" class="form-label">Apellido</label>-->
+                                            <input type="text" class="form-control" id="apellido" placeholder="Apellido"
+                                                value="" required="">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="username" class="form-label">Asignatura</label>-->
+                                            <div class="input-group has-validation">
+                                                <input type="text" class="form-control" id="asignatura"
+                                                    placeholder="Asignatura" required="">
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Email</label>-->
+                                            <input type="email" class="form-control" id="mail"
+                                                placeholder="Correo personal o institucional">
+
+                                        </div>
+
+                                        <div class="col-12">
+                                            <!--<label for="email" class="form-label">Institución a la que perteneces</label>-->
+                                            <input type="text" class="form-control" id="institucion"
+                                                placeholder="Institución a la que pertecenes">
+
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-dark">Descargar</button>
+                                        </div>
+
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <p class="texto-parrafo-negrita">Puedes escribirnos a info@ludensducacion.cl</p>
+</footer>
+
+</html>
